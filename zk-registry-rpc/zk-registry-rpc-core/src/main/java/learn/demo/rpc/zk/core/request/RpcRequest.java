@@ -66,7 +66,8 @@ public class RpcRequest implements Serializable {
     @Override
     public String toString() {
         return "RpcRequest{" +
-                "methodName='" + methodName + '\'' +
+                "id='" + id + '\'' +
+                ", methodName='" + methodName + '\'' +
                 ", parameters=" + Arrays.toString(parameters) +
                 ", parameterTypes=" + Arrays.toString(parameterTypes) +
                 '}';
