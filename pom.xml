@@ -10,6 +10,7 @@
     <version>1.0</version>
     <modules>
         <module>simple-rpc</module>
+        <module>zk-registry-rpc</module>
     </modules>
 
     <build>
